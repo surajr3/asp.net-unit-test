@@ -25,3 +25,4 @@ jobs:
 #       run: dotnet test --no-build --verbosity normal
     - name: run cmd test
       run: echo ${GITHUB_RUN_NUMBER}
+           echo $(date +'%Y-%m-%d')
