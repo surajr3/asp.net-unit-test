@@ -24,4 +24,4 @@ jobs:
 #     - name: Test
 #       run: dotnet test --no-build --verbosity normal
     - name: run cmd
-      run: echo ${{ env.GITHUB_RUN_NUMBER }}
+      run: echo ${GITHUB_RUN_NUMBER}
